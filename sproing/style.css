@@ -1,0 +1,178 @@
+/*
+Theme Name:   Sproing  
+Theme URI:    http://localhost/wordpress/
+Description:  Twenty Twenty Child Theme
+Author:       Daniel Naranjo
+Author URI:   https://danielnaranjo.com
+Template:     twentytwenty
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://localhost/wordpress/
+Tags:         Responsive, Bootstrap, Mobile
+Text Domain:  sproing
+*/
+
+/*
+CSS Colors:
+#d21b1b - Red
+
+*/
+
+/* Fonts */
+@font-face {
+  font-family: Montserrat;
+  src: local("Montserrat-Regular"),
+    url("fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+
+  font-family: Montserrat-bold;
+  src: local("Montserrat-Bold"),
+    url("fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+*/
+/* Fonts
+
+a {
+  color: #d21b1b;
+}
+
+/* unvisited link */
+a:link {
+  color: #d21b1b;
+}
+/* visited link */
+a:visited {
+  color: #d21b1b;
+}
+/* mouse over link */
+a:hover {
+  color: #d21b1b;
+}
+/* selected link */
+a:active {
+  color: #d21b1b;
+}
+
+@media (max-width: 767px) {
+  .sp-main {
+    color: #ffffff;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-image: url("assets/img/background.png");
+    background-color: #000000;
+  }
+}
+
+.sp-navbar {
+  text-align: center;
+  background-color: #d21b1b;
+}
+
+.btn {
+  color: #ffffff !important;
+  font-size: 10pt;
+  border-radius: 0px;
+  padding: 10px 40px;
+  background-color: #d21b1b;
+}
+
+.sp-blog {
+  color: #ffffff;
+  background-position: center;
+  background-image: url("assets/img/footer.png");
+}
+
+.sp-copyright {
+  height: auto;
+  padding: 10px;
+  color: #ffffff !important;
+  opacity: 1;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+.sp-copyright a {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+}
+.sp-main p {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+/* Tag that makes  */
+.sp-tag {
+  margin-top: 0px;
+  font-weight: bolder;
+  font-size: 32pt;
+  padding: 20px;
+  color: #ffffff !important;
+  text-align: center;
+  text-decoration: none;
+  background-color: #d21b1b;
+}
+
+.sp-vpadding {
+  padding: 100px;
+}
+
+.sp-vmargin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sp-xvmargin {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Blog section Styles */
+.sp-blog-content {
+  font-family: Montserrat;
+}
+
+.sp-blog-content h2,
+h3 {
+  text-align: center;
+  margin: 30px auto;
+  color: #d21b1b;
+}
+
+.sp-blog-content img {
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px !important;
+}
+
+.sp-blog-title {
+  font-weight: bolder;
+  font-family: Montserrat-bold !important;
+  text-transform: uppercase;
+  color: #d21b1b;
+}
+/* Blog section Styles */
+
+/* 404 Page Styles */
+.sp-404 {
+  color: white;
+  background-color: #d21b1b;
+  height: 85%;
+  margin: auto;
+  padding: auto;
+}
+
+.sp-404 h1 {
+  text-align: center;
+  font-size: 150pt;
+}
+
+.sp-404 h2 {
+  text-align: center;
+  font-size: 72pt;
+}
+/* 404 Page Styles */
